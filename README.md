@@ -1,2 +1,4 @@
 # competitive_programming
-competitive programming
+programs for competitive programming problems especially usaco and codeforces
+
+mostly in C++
