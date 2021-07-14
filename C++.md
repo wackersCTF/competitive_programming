@@ -1,16 +1,18 @@
 # C++ 
+* Main Author: wyl3waK
+* Contributers: xenonminer, prince-of-tennis 
+* This is mostly for USACO competitive programming.
 
-good start: https://www.w3schools.com/cpp/default.asp
-My github repo with c++ code for competitive programming: https://github.com/wyl3waK/competitive_programming 
+A good start: https://www.w3schools.com/cpp/default.asp
 
-Ides:
-I use vscode (visual studio code)
-Here’s a good online one: https://ide.usaco.guide 
+# Some IDEs
+* Visual Studio Code
+* Eclipse
+* Code::Blocks
+* CLion
+* Online one: https://ide.usaco.guide 
 
-Two Main Versions: 11 and 17
-
-
-Modules 
+# Common Library Header Files 
 #include <iostream>
 Basically include it at the top of every program
 It's just necessary, dont worry about it too much
