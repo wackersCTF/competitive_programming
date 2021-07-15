@@ -5,14 +5,14 @@
 
 A good start: https://www.w3schools.com/cpp/default.asp
 
-# Some IDEs
+## Some IDEs
 * Visual Studio Code
 * Eclipse
 * Code::Blocks
 * CLion
 * Online one: https://ide.usaco.guide 
 
-# Common Library Header Files 
+## Common Library Header Files 
 #include <iostream>
 Basically include it at the top of every program
 It's just necessary, dont worry about it too much
