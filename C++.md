@@ -26,27 +26,30 @@ A good start: https://www.w3schools.com/cpp/default.asp
 ## Syntax
 * Semicolons after each line
 
-Input & output
-cin >> inputVariable;
-Takes in all characters before a space or new line
-example: input is bob 1241234 mmmmmm 78988
-and i have 4 variables
-variable 1 is bob
-variable 2 is 1241234
-variable 3 is mmmmmm
-variable 4 is 78988 
-cout << outputVariable;
-You should put spaces between variables if there’s more than 1 or it will clump them together.
-“\n” for new line
-(you could use endl too but there’s a slight difference stick 
-Ex: cout << variable << “\n”;
-#include <cstdio>
-Ok so this is for old usaco in particular
-Old problems used to take in files as input and output
-So you would have to use this but they dont do this anymore
-freopen("file.in", "r", stdin);
-freopen("file.out", "w", stdout);
-Example: 
+## Input & Output (IO)
+### cin
+```cin >> inputVariable;```
+*cin* considers spaces and new lines delimiters. 
+
+Example: the input is ```1 22
+333```
+To store them into 3 variables, the code would be 
+
+```int a, b, c; cin >> a >> b >> c;```
+a would be equal to 1, b would be equal to 22, and c would be equal 333.
+
+### cout
+```cout << outputVariable;```
+Unlike Python's print(), cout will not separate the outputs with new lines or spaces.
+
+Use “\n” for new line (endl is also an alternative).
+Example:
+```cout << outputVariable1 << " " << outputVariable2 << "\n";```
+
+Another example:
+
+Input: 1 2 3
+```
 #include <iostream>
 using namespace std;
  
@@ -55,12 +58,21 @@ int main() {
    cout << c << " "  << b << " " << a << "\n";
    cout << "sum is " << a+b+c << "\n";
 }
- 
+```
+Output:
 
-Input: 1 2 3
-Output: 
 3 2 1
+
 sum is 6
+
+### File Input & Ouput
+Old USACO problems used to take in files as input and output.
+Example: 
+```
+#include <cstdio>
+freopen("file.in", "r", stdin);
+freopen("file.out", "w", stdout);
+```
 
 
 Variables
