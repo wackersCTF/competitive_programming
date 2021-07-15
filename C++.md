@@ -31,8 +31,11 @@ A good start: https://www.w3schools.com/cpp/default.asp
 ```cin >> inputVariable;```
 *cin* considers spaces and new lines delimiters. 
 
-Example: the input is ```1 22
-333```
+Example: the input is 
+```
+1 22
+333
+```
 To store them into 3 variables, the code would be 
 
 ```int a, b, c; cin >> a >> b >> c;```
