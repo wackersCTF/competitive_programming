@@ -2,6 +2,7 @@
 * Main Author: wyl3waK
 * Contributers: xenonminer, prince-of-tennis 
 * This is mostly for USACO competitive programming.
+* This is in progress and not written by experts. There may be errors and mistakes.
 
 A good start: https://www.w3schools.com/cpp/default.asp
 
