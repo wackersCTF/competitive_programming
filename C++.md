@@ -16,8 +16,10 @@ A good start: https://www.w3schools.com/cpp/default.asp
 ## Common Library Header Files 
 **\#include\<iostream>**
 * Include it at the top of each project
+
 **using namespace std;**
 * Include this too (necessary unless you want to do std::cin or std::cout)
+
 **#include \<vector>**
 * for vectors
 
