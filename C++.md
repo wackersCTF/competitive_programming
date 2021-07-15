@@ -13,19 +13,15 @@ A good start: https://www.w3schools.com/cpp/default.asp
 * Online one: https://ide.usaco.guide 
 
 ## Common Library Header Files 
-#include <iostream>
-Basically include it at the top of every program
-It's just necessary, dont worry about it too much
-using namespace std;
-Include this too (necessary unless you want to do std::cin)
-Its for cin and cout
-#include <cmath>
-#include <vector>
-To use vectors, you need this
+**#include <iostream>**
+* Include it at the top of each project
+**using namespace std;**
+* Include this too (necessary unless you want to do std::cin or std::cout)
+**#include <vector>**
+* for vectors
 
-Syntax
-Everything in in main() { code goes here }
-Semicolons (;) after each line
+## Syntax
+* Semicolons after each line
 
 Input & output
 cin >> inputVariable;
