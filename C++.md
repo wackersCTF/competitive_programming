@@ -28,28 +28,28 @@ A good start: https://www.w3schools.com/cpp/default.asp
 
 ## Input & Output (IO)
 ### cin
-```cin >> inputVariable;```
+```cpp cin >> inputVariable;```
 *cin* considers spaces and new lines delimiters. 
 
 Example: the input is ```1 22
 333```
 To store them into 3 variables, the code would be 
 
-```int a, b, c; cin >> a >> b >> c;```
+```cpp int a, b, c; cin >> a >> b >> c;```
 a would be equal to 1, b would be equal to 22, and c would be equal 333.
 
 ### cout
-```cout << outputVariable;```
+```cpp cout << outputVariable;```
 Unlike Python's print(), cout will not separate the outputs with new lines or spaces.
 
 Use “\n” for new line (endl is also an alternative).
 Example:
-```cout << outputVariable1 << " " << outputVariable2 << "\n";```
+```cpp cout << outputVariable1 << " " << outputVariable2 << "\n";```
 
 Another example:
 
 Input: 1 2 3
-```
+```cpp
 #include <iostream>
 using namespace std;
  
@@ -68,7 +68,7 @@ sum is 6
 ### File Input & Ouput
 Old USACO problems used to take in files as input and output.
 Example: 
-```
+```cpp
 #include <cstdio>
 freopen("file.in", "r", stdin);
 freopen("file.out", "w", stdout);
