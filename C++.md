@@ -83,7 +83,8 @@ freopen("file.out", "w", stdout);
 
 ## Variables
 
-Initialization of variable: ```type variableName = value;```
+Initialization: ```type variableName = value;```
+Assignment/value change: ```variableName = value;```
  
 Value is optional. You can choose to omit it and assign it later.
 
@@ -111,52 +112,33 @@ Bools and char use 1 byte of storage.
 | unsigned | Stores only nonnegative numbers. |
 | signed | Stores all numbers (positive, 0, negative) |
 
+To learn about the ranges, check out this [website](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160).
+
 ## Arrays
-Basically a list with a defined size
-You can set the size of it even without knowing the values
-I set the size to the max size it should hold as specified in the problem
-For example: lets say the problem said they will give N numbers where 0 < N < 100 and i want to put all those numbers in an array. I would set the array size to 100.
-Array declaration: type arrayName[size] = {value};
-Index starts from 0, so arr[0], arr[1], …
-Value is optional. You’ll have empty values
+Intialization: ```type arrayName[size] = {value1, value2};```
+
+Arrays have a determined size and the index starts from 0. Value is optional. 
+
 To print array values, you can use a for loop or a ranged for loop
 
 
-for (int i = 0; i < arraysize; i++) {
-cout << i;
-}
+### 2D Arrays
+Intialization: ```arrayName[row][column]```
 
+## Vectors
 
-
-2D arrays 
-Value is represented by arrayname[row][column]
-
-Vectors
-
-Loops
-
-for (int i = 0; i < n; i++) {
+## Loops
+### For Loop
+To repeat something n times, 
+```cpp
+for (int var = 0; var < n; var++) {
 	// code here
-} else {
-	// code
 }
-
+```
+### While Loop
 while (condition) {
 
 }
 
+## Conditions
 
-FAQ
-Where can I define variables? 
-Define all variables in the main function. 
-What's the difference between << “\n” and just having \n in the string?
-It doesn’t matter. They are the same thing and both create a new line.
-What’s the difference between using namespace std; and std::cout << "Hello World";?
-It’s like importing a module
-If you don't write using namespace std: you HAVE to write std::cout
-if you do write using namespace std: you can write cout
-Does usaco/codeforces take cpp code or does it have to be compiled?
-They take in a cpp program and they compile it for you
-How do I take the variable the problem gives as input?
-int var; cin >> var; (Replace var with your variable)
-(sometimes you need to take in the input into another data structure like an array)
