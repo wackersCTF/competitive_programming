@@ -23,6 +23,9 @@ A good start: https://www.w3schools.com/cpp/default.asp
 **#include \<vector>**
 * for vectors
 
+**#include \<cmath>**
+* for some common math functions
+
 ## Syntax
 * Semicolons after each line
 
