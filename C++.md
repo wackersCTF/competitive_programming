@@ -29,6 +29,7 @@ A good start: https://www.w3schools.com/cpp/default.asp
 ## Input & Output (IO)
 ### cin
 ```cin >> inputVariable;```
+
 *cin* considers spaces and new lines delimiters. 
 
 Example: the input is 
@@ -39,19 +40,22 @@ Example: the input is
 To store them into 3 variables, the code would be 
 
 ```int a, b, c; cin >> a >> b >> c;```
+
 a would be equal to 1, b would be equal to 22, and c would be equal 333.
 
 ### cout
 ```cout << outputVariable;```
+
 Unlike Python's print(), cout will not separate the outputs with new lines or spaces.
 
 Use “\n” for new line (endl is also an alternative).
+
 Example:
 ```cout << outputVariable1 << " " << outputVariable2 << "\n";```
 
 Another example:
 
-Input: 1 2 3
+Input: ```1 2 3```
 ```cpp
 #include <iostream>
 using namespace std;
@@ -59,14 +63,14 @@ using namespace std;
 int main() {
    int a, b, c; cin >> a >> b >> c;
    cout << c << " "  << b << " " << a << "\n";
-   cout << "sum is " << a+b+c << "\n";
+   cout << "sum is " << a+b+c;
 }
 ```
 Output:
-
+```
 3 2 1
-
 sum is 6
+```
 
 ### File Input & Ouput
 Old USACO problems used to take in files as input and output.
@@ -77,15 +81,37 @@ freopen("file.in", "r", stdin);
 freopen("file.out", "w", stdout);
 ```
 
+## Variables
 
-Variables
-Must specify type
+Initialization of variable: ```type variableName = value;```
+ 
+Value is optional. You can choose to omit it and assign it later.
 
+### Variable Types
+| Name | Description |
+| --- | --- |
+| int | Stores an integer |
+| float | Stores a decimal |
+| double | Stores a bigger decimal |
+| string | Stores alphanumeric characters |
+| char | Stores a character |
+| bool | Stores true or false |
 
-Initialization: type variable = value;
-Value is not necessary. You can omit it
+### Variable Modifiers
+| Name | Description |
+| --- | --- |
+| short | Uses 2 bytes of storage |
+| normal/none | Uses 4 bytes of storage |
+| long long | Uses 8 bytes of storage |
 
-Arrays
+Bools and char use 1 byte of storage.
+
+| Name | Description |
+| --- | --- |
+| unsigned | Stores only nonnegative numbers. |
+| signed | Stores all numbers (positive, 0, negative) |
+
+## Arrays
 Basically a list with a defined size
 You can set the size of it even without knowing the values
 I set the size to the max size it should hold as specified in the problem
