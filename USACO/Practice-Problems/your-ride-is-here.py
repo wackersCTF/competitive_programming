@@ -1,6 +1,8 @@
 #USACO Your Ride is Here
 # https://train.usaco.org/usacoprob2?a=hL4ACvk2xxi&S=ride
 
+# originally done at USACO club on 2/18/2021
+
 comet = input()
 ufo = input()
 comet_num = 1
