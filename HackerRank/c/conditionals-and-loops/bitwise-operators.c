@@ -1,6 +1,10 @@
 // https://www.hackerrank.com/challenges/bitwise-operators-in-c/problem
+
 /*
-You will be given an integer n, and a threshold, k. For each integer i from 1 through n, find the maximum value of the logical and, or and xor when compared against all integers through n that are greater than i. Consider a value only if the comparison returns a results less than k. Print the results of the and, or, and xor comparisons on separate lines in that order.
+You will be given an integer n, and a threshold, k. For each integer i from 1 through n, find the 
+maximum value of the logical and, or and xor when compared against all integers through n that are 
+greater than i. Consider a value only if the comparison returns a results less than k. Print the 
+results of the and, or, and xor comparisons on separate lines in that order.
 */
 
 #include <stdio.h>
