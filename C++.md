@@ -139,9 +139,10 @@ for (int var = 0; var < n; var++) {
 }
 ```
 ### While Loop
+```cpp
 while (condition) {
-
+	// code here
 }
-
+```
 ## Conditions
 
